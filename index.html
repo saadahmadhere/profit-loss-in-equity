@@ -12,7 +12,26 @@
 
 <body>
     
-    <h2 id= "test">hello</h2>
+    <main>
+        <h1>Stocks</h1>
+        <h2>Check how much you gained or lost in your equity trade</h2>
+        <form id="form">
+            <label>
+                Initial Price: <input type="number" id="buy-price" placeholder="Enter the buy amount" >
+            </label>
+            <label>
+                Quantity of stocks: <input type="number" id="stocks-qty" placeholder="Enter the quantity of stocks">
+            </label>
+            <label>
+                Current Price: <input type="number" id="current-price"placeholder="Enter the current price">
+            </label>
+            <button type ="submit">Check</button>
+        </form>
+
+        <div class="output">
+            
+        </div>
+    </main>
 
     <script src="script.js"></script>
 </body>
