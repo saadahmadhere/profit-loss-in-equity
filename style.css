@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+*{
+    font-family: 'Rubik', sans-serif;
+    background-color: #F5FDC6;
+}
 main{
     max-width: 600px;
     margin: auto;
@@ -16,9 +22,21 @@ label{
 
 input{
     padding: 0.5rem;
+    border-radius: 8px;
+    outline: #fff;
 }
 
 
 button{
-    margin: auto
+    margin: 1rem auto;
+    padding: 0.5rem 1.2rem;
+    border: 1px solid transparent;
+    border-radius: 1rem;
+    background-color: #EAFB89;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: #F5FDC3;
+    border: 1px solid #c3d655;
 }

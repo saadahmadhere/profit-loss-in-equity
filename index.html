@@ -17,7 +17,7 @@
         <h2>Check how much you gained or lost in your equity trade</h2>
         <form id="form">
             <label>
-                Initial Price: <input type="number" id="buy-price" placeholder="Enter the buy amount" >
+                Initial Price: <input type="number" id="buy-price" placeholder="Enter the buy amount" autofocus>
             </label>
             <label>
                 Quantity of stocks: <input type="number" id="stocks-qty" placeholder="Enter the quantity of stocks">
@@ -25,11 +25,11 @@
             <label>
                 Current Price: <input type="number" id="current-price"placeholder="Enter the current price">
             </label>
-            <button type ="submit">Check</button>
+            <button id="submit-btn" type ="submit">Check</button>
         </form>
 
-        <div class="output">
-            
+        <div id="output">
+
         </div>
     </main>
 
